@@ -39,10 +39,23 @@ body{
     color: #9b9898;
 }
 
+.sec1-imgcontainer{
+    height: 342px;
+    background-color: #f548e6;
+    background-image: url(/imagenes/image-header-desktop.jpg);
+    background-blend-mode: overlay;
+
+}
+
 .img-right{
     width: 440px;
     height: 342px;
+    background-color: #f548e6;
+    background-image: url(/imagenes/image-header-desktop.jpg);
+    background-blend-mode: multiply;
+
 }
+
 
 .numbers{
     padding-top: 3.5rem;
