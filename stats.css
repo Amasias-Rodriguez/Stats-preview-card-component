@@ -36,3 +36,53 @@ body{
     font-size: 15px;
     list-style: none;
 }
+
+/* MAIN */
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 7rem 9rem;
+    margin: 0 auto;
+}
+
+.mainh1{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #b8b8b8;
+}
+
+.main-h2{
+    font-size: 150px;
+    font-weight: 300;
+    padding: 2rem 0;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+.main-p{
+    font-size: 12px;
+    line-height: 2;
+    color: #b8b8b8;
+    padding: 0 1rem;
+}
+
+.main-left{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    margin-top: 12rem;
+    margin-left: 30rem;
+}
+
+
+.main-lefth1{
+    font-size: 35px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    margin-top: 5.6rem;
+    color: #000;
+}
